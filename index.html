@@ -147,13 +147,13 @@
    <!--setTimeout-->
    
    <form name="timer1">
-     <input type="button" value="スタート" onclick="hyoji1()">
+     <input type="button" value="スタート" onclick="hyoji1();">
      <br>
      <input type="text" name="moji1" size="30" value="">
    </form>
 
    <h1>練習問題6-13</h1>
-     <form><input type="button" value="画像切り替え" onclick="timechange();setTimeout('returnimg()',3000);"></form>
+     <form><input type="button" value="画像切り替え" onclick="timechange();setTimeout('returnimg();',3000);"></form>
      <br>
      <img src='./image/keiei_small.jpg' id="timechg" alt="Jikannkirikae" class="imagechange">
 
@@ -186,6 +186,6 @@
      <h1>演習3 閏年か平年か</h1>
      <p>
        西暦を入力してください。<input type="text" id="ennsyuu">年 <input type="button" value="調べる" onclick="ennsyuu3()">
-      </p>
+     </p>
  </body>
 </html> 
